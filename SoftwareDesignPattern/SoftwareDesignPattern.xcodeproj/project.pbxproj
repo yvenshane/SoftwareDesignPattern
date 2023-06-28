@@ -17,6 +17,11 @@
 		22E1BCFF2A4C152E00191477 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BCFE2A4C152E00191477 /* Singleton.m */; };
 		22E1BD032A4C198900191477 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD022A4C198900191477 /* Product.m */; };
 		22E1BD062A4C19A300191477 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD052A4C19A300191477 /* Factory.m */; };
+		22E1BD0A2A4C1BD800191477 /* AbstractProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD092A4C1BD800191477 /* AbstractProductA.m */; };
+		22E1BD0D2A4C1BF100191477 /* ConcreteProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD0C2A4C1BF100191477 /* ConcreteProductA.m */; };
+		22E1BD112A4C1C1000191477 /* AbstractProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD102A4C1C1000191477 /* AbstractProductB.m */; };
+		22E1BD142A4C1C2300191477 /* ConcreteProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD132A4C1C2300191477 /* ConcreteProductB.m */; };
+		22E1BD172A4C1C6A00191477 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD162A4C1C6A00191477 /* AbstractFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,16 @@
 		22E1BD022A4C198900191477 /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		22E1BD042A4C19A300191477 /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
 		22E1BD052A4C19A300191477 /* Factory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		22E1BD082A4C1BD800191477 /* AbstractProductA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractProductA.h; sourceTree = "<group>"; };
+		22E1BD092A4C1BD800191477 /* AbstractProductA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractProductA.m; sourceTree = "<group>"; };
+		22E1BD0B2A4C1BF100191477 /* ConcreteProductA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteProductA.h; sourceTree = "<group>"; };
+		22E1BD0C2A4C1BF100191477 /* ConcreteProductA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteProductA.m; sourceTree = "<group>"; };
+		22E1BD0F2A4C1C1000191477 /* AbstractProductB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractProductB.h; sourceTree = "<group>"; };
+		22E1BD102A4C1C1000191477 /* AbstractProductB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractProductB.m; sourceTree = "<group>"; };
+		22E1BD122A4C1C2300191477 /* ConcreteProductB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteProductB.h; sourceTree = "<group>"; };
+		22E1BD132A4C1C2300191477 /* ConcreteProductB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteProductB.m; sourceTree = "<group>"; };
+		22E1BD152A4C1C6A00191477 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		22E1BD162A4C1C6A00191477 /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +85,8 @@
 		22E1BCE22A4C146F00191477 /* SoftwareDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				22E1BD002A4C197C00191477 /* Factory Method Pattern */,
+				22E1BD072A4C1BBF00191477 /* AbstractFactoryPattern */,
+				22E1BD002A4C197C00191477 /* FactoryMethodPattern */,
 				22E1BCFC2A4C14F900191477 /* SingletonPattern */,
 				22E1BCE32A4C146F00191477 /* AppDelegate.h */,
 				22E1BCE42A4C146F00191477 /* AppDelegate.m */,
@@ -96,7 +112,7 @@
 			path = SingletonPattern;
 			sourceTree = "<group>";
 		};
-		22E1BD002A4C197C00191477 /* Factory Method Pattern */ = {
+		22E1BD002A4C197C00191477 /* FactoryMethodPattern */ = {
 			isa = PBXGroup;
 			children = (
 				22E1BD012A4C198900191477 /* Product.h */,
@@ -104,7 +120,24 @@
 				22E1BD042A4C19A300191477 /* Factory.h */,
 				22E1BD052A4C19A300191477 /* Factory.m */,
 			);
-			path = "Factory Method Pattern";
+			path = FactoryMethodPattern;
+			sourceTree = "<group>";
+		};
+		22E1BD072A4C1BBF00191477 /* AbstractFactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				22E1BD082A4C1BD800191477 /* AbstractProductA.h */,
+				22E1BD092A4C1BD800191477 /* AbstractProductA.m */,
+				22E1BD0B2A4C1BF100191477 /* ConcreteProductA.h */,
+				22E1BD0C2A4C1BF100191477 /* ConcreteProductA.m */,
+				22E1BD0F2A4C1C1000191477 /* AbstractProductB.h */,
+				22E1BD102A4C1C1000191477 /* AbstractProductB.m */,
+				22E1BD122A4C1C2300191477 /* ConcreteProductB.h */,
+				22E1BD132A4C1C2300191477 /* ConcreteProductB.m */,
+				22E1BD152A4C1C6A00191477 /* AbstractFactory.h */,
+				22E1BD162A4C1C6A00191477 /* AbstractFactory.m */,
+			);
+			path = AbstractFactoryPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,11 +211,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				22E1BCEB2A4C146F00191477 /* ViewController.m in Sources */,
+				22E1BD142A4C1C2300191477 /* ConcreteProductB.m in Sources */,
 				22E1BCE52A4C146F00191477 /* AppDelegate.m in Sources */,
 				22E1BCF62A4C146F00191477 /* main.m in Sources */,
+				22E1BD0D2A4C1BF100191477 /* ConcreteProductA.m in Sources */,
+				22E1BD0A2A4C1BD800191477 /* AbstractProductA.m in Sources */,
 				22E1BD032A4C198900191477 /* Product.m in Sources */,
 				22E1BCE82A4C146F00191477 /* SceneDelegate.m in Sources */,
+				22E1BD172A4C1C6A00191477 /* AbstractFactory.m in Sources */,
 				22E1BCFF2A4C152E00191477 /* Singleton.m in Sources */,
+				22E1BD112A4C1C1000191477 /* AbstractProductB.m in Sources */,
 				22E1BD062A4C19A300191477 /* Factory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
