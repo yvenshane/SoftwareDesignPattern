@@ -14,6 +14,7 @@
 		22E1BCF02A4C146F00191477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E1BCEF2A4C146F00191477 /* Assets.xcassets */; };
 		22E1BCF32A4C146F00191477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E1BCF12A4C146F00191477 /* LaunchScreen.storyboard */; };
 		22E1BCF62A4C146F00191477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BCF52A4C146F00191477 /* main.m */; };
+		22E1BCFF2A4C152E00191477 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BCFE2A4C152E00191477 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		22E1BCF22A4C146F00191477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22E1BCF42A4C146F00191477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22E1BCF52A4C146F00191477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22E1BCFD2A4C152E00191477 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		22E1BCFE2A4C152E00191477 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		22E1BCE22A4C146F00191477 /* SoftwareDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				22E1BCFC2A4C14F900191477 /* SingletonPattern */,
 				22E1BCE32A4C146F00191477 /* AppDelegate.h */,
 				22E1BCE42A4C146F00191477 /* AppDelegate.m */,
 				22E1BCE62A4C146F00191477 /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				22E1BCF52A4C146F00191477 /* main.m */,
 			);
 			path = SoftwareDesignPattern;
+			sourceTree = "<group>";
+		};
+		22E1BCFC2A4C14F900191477 /* SingletonPattern */ = {
+			isa = PBXGroup;
+			children = (
+				22E1BCFD2A4C152E00191477 /* Singleton.h */,
+				22E1BCFE2A4C152E00191477 /* Singleton.m */,
+			);
+			path = SingletonPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 				22E1BCE52A4C146F00191477 /* AppDelegate.m in Sources */,
 				22E1BCF62A4C146F00191477 /* main.m in Sources */,
 				22E1BCE82A4C146F00191477 /* SceneDelegate.m in Sources */,
+				22E1BCFF2A4C152E00191477 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
