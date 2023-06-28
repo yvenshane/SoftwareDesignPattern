@@ -22,6 +22,9 @@
 		22E1BD112A4C1C1000191477 /* AbstractProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD102A4C1C1000191477 /* AbstractProductB.m */; };
 		22E1BD142A4C1C2300191477 /* ConcreteProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD132A4C1C2300191477 /* ConcreteProductB.m */; };
 		22E1BD172A4C1C6A00191477 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD162A4C1C6A00191477 /* AbstractFactory.m */; };
+		22E1BD1B2A4C1EB500191477 /* Productt.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD1A2A4C1EB500191477 /* Productt.m */; };
+		22E1BD1E2A4C1EC700191477 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD1D2A4C1EC700191477 /* Builder.m */; };
+		22E1BD212A4C1F3000191477 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1BD202A4C1F3000191477 /* Director.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,12 @@
 		22E1BD132A4C1C2300191477 /* ConcreteProductB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteProductB.m; sourceTree = "<group>"; };
 		22E1BD152A4C1C6A00191477 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
 		22E1BD162A4C1C6A00191477 /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		22E1BD192A4C1EB500191477 /* Productt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Productt.h; sourceTree = "<group>"; };
+		22E1BD1A2A4C1EB500191477 /* Productt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Productt.m; sourceTree = "<group>"; };
+		22E1BD1C2A4C1EC700191477 /* Builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		22E1BD1D2A4C1EC700191477 /* Builder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
+		22E1BD1F2A4C1F3000191477 /* Director.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		22E1BD202A4C1F3000191477 /* Director.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,7 @@
 		22E1BCE22A4C146F00191477 /* SoftwareDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				22E1BD182A4C1D3E00191477 /* BuilderPattern */,
 				22E1BD072A4C1BBF00191477 /* AbstractFactoryPattern */,
 				22E1BD002A4C197C00191477 /* FactoryMethodPattern */,
 				22E1BCFC2A4C14F900191477 /* SingletonPattern */,
@@ -138,6 +148,19 @@
 				22E1BD162A4C1C6A00191477 /* AbstractFactory.m */,
 			);
 			path = AbstractFactoryPattern;
+			sourceTree = "<group>";
+		};
+		22E1BD182A4C1D3E00191477 /* BuilderPattern */ = {
+			isa = PBXGroup;
+			children = (
+				22E1BD192A4C1EB500191477 /* Productt.h */,
+				22E1BD1A2A4C1EB500191477 /* Productt.m */,
+				22E1BD1C2A4C1EC700191477 /* Builder.h */,
+				22E1BD1D2A4C1EC700191477 /* Builder.m */,
+				22E1BD1F2A4C1F3000191477 /* Director.h */,
+				22E1BD202A4C1F3000191477 /* Director.m */,
+			);
+			path = BuilderPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,15 +234,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				22E1BCEB2A4C146F00191477 /* ViewController.m in Sources */,
+				22E1BD212A4C1F3000191477 /* Director.m in Sources */,
 				22E1BD142A4C1C2300191477 /* ConcreteProductB.m in Sources */,
 				22E1BCE52A4C146F00191477 /* AppDelegate.m in Sources */,
 				22E1BCF62A4C146F00191477 /* main.m in Sources */,
+				22E1BD1B2A4C1EB500191477 /* Productt.m in Sources */,
 				22E1BD0D2A4C1BF100191477 /* ConcreteProductA.m in Sources */,
 				22E1BD0A2A4C1BD800191477 /* AbstractProductA.m in Sources */,
 				22E1BD032A4C198900191477 /* Product.m in Sources */,
 				22E1BCE82A4C146F00191477 /* SceneDelegate.m in Sources */,
 				22E1BD172A4C1C6A00191477 /* AbstractFactory.m in Sources */,
 				22E1BCFF2A4C152E00191477 /* Singleton.m in Sources */,
+				22E1BD1E2A4C1EC700191477 /* Builder.m in Sources */,
 				22E1BD112A4C1C1000191477 /* AbstractProductB.m in Sources */,
 				22E1BD062A4C19A300191477 /* Factory.m in Sources */,
 			);
